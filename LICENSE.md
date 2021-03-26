@@ -342,13 +342,4 @@ consider it more useful to permit linking proprietary applications with the
 library.  If this is what you want to do, use the GNU Library General
 Public License instead of this License.
 
-
-
-Copyright 2001 D.I. Management Services Pty Ltd
-Copyright 2007-2009 Ilya O. Levin
-Copyright 2018 Rohit Consul <rohitco@xilinx.com>
-Copyright 1989, 1991 Free Software Foundation Inc
-Copyright 2001 David Ireland D.I. Management Services Pty Ltd
-Copyright 2007 Hans Verkuil
-Copyright 2016-2017 Leon Woestenberg <leon@sidebranch.com>
-Copyright 2014-2020 Xilinx Inc
+Copyright (C) 2021 Xilinx, Inc.
