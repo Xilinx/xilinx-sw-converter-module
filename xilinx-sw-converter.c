@@ -17,12 +17,7 @@
  */
 
 #include <dt-bindings/media/xilinx-vip.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/compiler.h>
-#include <linux/delay.h>
 #include <linux/device.h>
-#include <linux/gpio/consumer.h>
 #include <linux/interrupt.h>
 #include <linux/io.h>
 #include <linux/kernel.h>
@@ -32,12 +27,7 @@
 #include <linux/of_irq.h>
 #include <linux/platform_device.h>
 #include <linux/pm.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/spinlock_types.h>
-#include <linux/types.h>
 #include <linux/v4l2-subdev.h>
-#include <linux/xilinx-csi2rxss.h>
 #include <linux/xilinx-v4l2-controls.h>
 #include <media/media-entity.h>
 #include <media/v4l2-common.h>
@@ -46,6 +36,7 @@
 #include <media/v4l2-fwnode.h>
 #include <media/v4l2-subdev.h>
 #include <xilinx/xilinx-vip.h>
+
 
 /*
  * Max string length for SW Convertor Data type string

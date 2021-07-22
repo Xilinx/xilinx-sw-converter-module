@@ -3,6 +3,11 @@ obj-m := xilinx-sw-converter.o
 SRC := $(shell pwd)
 
 EXTRA_CFLAGS := -I$(KERNEL_SRC)/drivers/media/platform/
+EXTRA_CFLAGS += -I$(KERNEL_SRC)/include/linux
+EXTRA_CFLAGS += -I$(KERNEL_SRC)/arch/arm64/include/
+EXTRA_CFLAGS += -I$(KERNEL_SRC)/arch/arm64/include/generated/
+EXTRA_CFLAGS += -I$(KERNEL_SRC)/arch/arm64/include/generated/uapi/
+EXTRA_CFLAGS += -I$(KERNEL_SRC)/arch/arm64/include/uapi/
 
 all:
 	$(MAKE) -C $(KERNEL_SRC) M=$(SRC)
